@@ -1,0 +1,224 @@
+
+/*ABOUT PAGE*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+*{
+    box-sizing: border-box;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: blue;
+}
+
+.header-title{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about-container{
+    background: url("images/img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 115px;
+    padding-left: 20px;
+    height: 650px;
+    border-bottom: 1px solid blue;
+}
+
+.about-title {
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.about-text p{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+.about-divimg{
+    width: 100%;
+    text-align: right;
+}
+.about-img{
+    display: inline-block;
+}
+
+.about-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/*SECTIONS*/
+.about-sections{
+    padding: 20px;
+    display: flex;
+}
+
+/*SECTION1*/
+.about-section1{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.about-title2, .about-title3{
+    font-size: 40px;
+    color: blue;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.article1{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.article2{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+ul li{
+    list-style: square;
+    font-size: 20px;
+}
+
+/*SECTION2*/
+.about-section2{
+    width: 50%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.chat{
+    margin-top: 20px;
+}
+
+.mail{
+    margin-top: 20px;
+}
+
+#whatsapp-logo{
+    width: 20px;
+    height: 20px;
+}
+
+#email-logo{
+    width: 15;
+    height: 15px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-title{
+        font-size: 25px;
+    }
+
+    .about-container{
+        height: 450px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    .about-title {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .about-text p{
+        font-size: 27px;
+    }
+
+    .about-divimg{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .about-img img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .about-sections{
+        display: block;
+    }
+
+    .about-section1{
+        width: 100%;
+    }
+
+    .about-section2{
+        width: 100%;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    
+    .about-container{
+        height: 270px;
+        padding-top: 20px;
+    }
+    
+    .about-title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .about-text p{
+        font-size: 20px;
+    }
+
+    .about-title2, .about-title3{
+        font-size: 30px;
+    }
+
+    .about-divimg{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .about-img img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .about-sections{
+        margin-top: 50px;
+    }
+
+    .about-section1{
+        margin-top: 10px;
+    }
+
+}
